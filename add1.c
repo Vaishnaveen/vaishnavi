@@ -4,11 +4,10 @@ int getinput()
 int n;
 printf("enter a number\n");
 scanf("%d",&n);
-return n;
 }
 int compute(int n)
 {
-return n++;
+  n=n++
 }
 int output(int r)
 {
@@ -19,7 +18,6 @@ int main()
 int n,r;
 n=getinput;
 n=compute;
-output=r;
-return 0;
+r=output;
 }
 
