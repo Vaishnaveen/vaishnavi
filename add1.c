@@ -16,9 +16,10 @@ printf("the result is:%d\n",r);
 }
 int main()
 {
+int n,r;
 n=input;
 r=compute;
 output=r;
-return;
+return 0;
 }
 
