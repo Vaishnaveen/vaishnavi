@@ -15,10 +15,12 @@ void output(int a)
 {
 printf("the result is:%d\n",a);
 }
-void main()
+int main()
 {
 int n,a;
-n=input();
-n=compute(*n);
-a=output(a);
+input(&n);
+compute(&n,*n);
+output(&a);
+return 0;
+  
 }
