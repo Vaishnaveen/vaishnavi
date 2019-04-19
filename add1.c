@@ -18,7 +18,7 @@ int main()
 {
 int n,r;
 n=getinput();
-n=compute(int n);
-r=output(int r);
+n=compute(n);
+r=output(r);
 }
 
