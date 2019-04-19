@@ -7,20 +7,18 @@ scanf("%d",&n);
 }
 void compute(int*n)
 {
-int a;
 *n=n++;
-*n=a;
 }
-void output(int a)
+void output(int n)
 {
-printf("the result is:%d\n",a);
+printf("the result is:%d\n",n);
 }
 int main()
 {
-int n,a;
-input(&n);
-compute(&n,*n);
-output(&a);
+int n;
+input();
+compute(&n);
+output(&n);
 return 0;
   
 }
