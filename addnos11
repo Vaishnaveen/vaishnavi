@@ -1,17 +1,16 @@
 #include<stdio.h>
-int getinput(int *a,int *b)
+int getinput()
 {
-    printf("Enter the value of a \n");
-    scanf("%d",a);
-    printf("Enter the value of b \n");
-    scanf("%d",b);
-
+    int x;
+    scanf("%d",x);
+    rturn x;
+    
 }
-void add(int a,int b,int *s)
+int add(int a,int b,int s)
 {
 
-    *s=(a+b);
-    return;
+    s=(a+b);
+    return s;
 }
 void output(int s)
 {
@@ -20,7 +19,10 @@ void output(int s)
 int main()
 {
     int a,b,s;
-    getinput(&a,&b);
+    printf("enter a:\n",x);
+    a=getinput(&x);
+    printf("enter b:\n",x);
+    b=getinput(&x);
     add(a,b,&s);
     output(s);
 }
