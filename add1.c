@@ -17,8 +17,8 @@ printf("the result is:%d\n",r);
 int main()
 {
 int n,r;
-n=input;
-r=compute;
+n=getinput;
+n=compute;
 output=r;
 return 0;
 }
