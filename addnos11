@@ -1,0 +1,27 @@
+#include<stdio.h>
+int getinput(int *a,int *b)
+{
+    printf("Enter the value of a \n");
+    scanf("%d",a);
+    printf("Enter the value of b \n");
+    scanf("%d",b);
+
+}
+void add(int a,int b,int *s)
+{
+
+    *s=(a+b);
+    return;
+}
+void output(int s)
+{
+     printf("The sum of the two nos.:%d\n",s);
+}
+int main()
+{
+    int a,b,s;
+    getinput(&a,&b);
+    add(a,b,&s);
+    output(s);
+}
+
