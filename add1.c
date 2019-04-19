@@ -4,21 +4,22 @@ int getinput()
 int n;
 printf("enter a number\n");
 scanf("%d",&n);
-return ;
+return n;
 }
 int compute(int n)
 {
-  n=n+1
+  n=n+1;
+  return n;
 }
-int output(int r)
+int output(int n)
 {
-printf("the result is:%d\n",r);
+printf("the result is:%d\n",n);
 }
 int main()
 {
-int n,r;
+int n;
 n=getinput();
 n=compute(n);
-r=output(r);
+n=output(n);
 }
 
