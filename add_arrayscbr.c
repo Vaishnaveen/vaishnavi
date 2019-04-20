@@ -1,7 +1,7 @@
 #include<stdio.h>
-void inputn(int *n)
+void inputn(int *x)
 {
-    scanf("%d",n);
+    scanf("%d",x);
     return;
 }
 void inputnumbers(int n, int a[])
@@ -12,7 +12,7 @@ void inputnumbers(int n, int a[])
     }
     return;
 }
-void compute(int a[], int s)
+void compute(int a[n], int s)
 {
     
     for(int i=0;i<n;i++)
@@ -30,10 +30,11 @@ void output(int s)
 }
  int main()
 {
-    int s,n;
-    printf("read n:\n",n);
+    int x,s,n;
+    printf("read n:\n",x);
     input(&n);
     int a[n];
-    compute(s,a[n]);
+    inputnumbers(n,&a[]);
+    compute(&s,&a[n]);
     output(s);
 }
