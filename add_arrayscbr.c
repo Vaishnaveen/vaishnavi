@@ -32,10 +32,10 @@ void output(int s)
  int main()
 {
     int s,n;
-    printf("read n:\n",n);
+    printf("read n:\n");
     inputn(&n);
     int a[n];
-    inputnumbers(n,&a[n]);
-    compute(&s,a[n]);// when the program expects an integer but in function call the given value is that of a pointer there is an error of making a pointer from integer without a cast//
+    inputnumbers(n,a);//a[n] gives the nth element of the array not n elements ,thus we use a[0]or simply a not even &a since it is same as a.//
+    compute(&s,a);// when the program expects an integer but in function call the given value is that of a pointer there is an error of making a pointer from integer without a cast//
     output(s);
 }
