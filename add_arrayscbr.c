@@ -1,4 +1,4 @@
-#inlcude<stdio.h>
+#include<stdio.h>
 void inputn(int *n)
 {
     scanf("%d",n);
@@ -10,29 +10,30 @@ void inputnumbers(int n, int a[])
     {
         scanf("%d",a[i]);
     }
-    return a[i];
+    return;
 }
-void compute(int a[i], int s)
+void compute(int a[], int s)
 {
     
     for(int i=0;i<n;i++)
     {
         s=s+a[i];
     }
-    return s;
+    return;
 }
 void output(int s)
 {
     for(int i=0;i<n;i++)
     {
-        printf("tne sum of n nos is:%d\n",s):
+        printf("tne sum of n nos is:%d\n",s);
     }
 }
  int main()
 {
-    int i,n,a[i];
+    int s,n;
     printf("read n:\n",n);
-    n=input(&n);
-    s=compute(s,a[i]);
-    s=output(s);
+    input(&n);
+    int a[n];
+    compute(s,a[n]);
+    output(s);
 }
