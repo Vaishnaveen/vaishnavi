@@ -1,11 +1,11 @@
 #include<stdio.h>
-void inputn(int *n)
+int inputn(int n)
 {
-    scanf("%d",n);
-    return;
+    scanf("%d",&n);
+    return n;
 }
 void inputnumbers(int n, int a[])
-{
+{   
     for(int i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -15,6 +15,7 @@ void inputnumbers(int n, int a[])
 void compute(int a[], int s)
 {
     int n;
+    n=inputn(n)
     for(int i=0;i<n;i++)
     {
         s=s+a[n];
