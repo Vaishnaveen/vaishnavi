@@ -17,7 +17,8 @@ void compute(int a[], int s)
     int n;
     n=inputn(n)
     for(int i=0;i<n;i++)
-    {
+    {   
+        scanf("%d",&a[]);
         s=s+a[n];
     }
     return;
@@ -32,7 +33,7 @@ void output(int s)
 }
  int main()
 {
-    int s,n;
+    int s=0,n,i;
     printf("read n:\n");
     inputn(&n);
     int a[n];
