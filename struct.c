@@ -4,17 +4,17 @@ struct fraction
 	int nume;
 	int deno;
 };
-struct fraction getinput()
-{       struct fraction x;
-	scanf("%d/%d",x);
+void getinput()
+{       int x,y;
+	scanf("%d/%d",&x,&y);
 	return;
 }
 int main()
 {
-	struct fraction x;
-	printf("Enter the numerator and denominator:\n");
-	getinput(&x.nume,&x.deno);
-	printf("The fraction is %d/%d ",x.nume,x.deno);
+	struct fraction x,y;
+	printf("Read the fraction in X/Y:\n");
+	getinput(&x.nume,&y.deno);
+	printf("The fraction is %d/%d ",x.nume,y.deno);
 	return 0;
 }
 	
