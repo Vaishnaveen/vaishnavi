@@ -4,8 +4,8 @@ struct fraction
 	int nume;
 	int deno;
 };
-void getinput()
-{       int x,y;
+void getinput(struct fraction *x)
+{      
 	scanf("%d/%d",&x,&y);
 	return;
 }
