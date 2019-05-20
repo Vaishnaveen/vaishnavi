@@ -4,11 +4,6 @@ struct fraction
 	int nume;
 	int deno;
 };
-void getinput(struct fraction *x)
-{      
-	scanf("%d/%d",&x->nume,&y->deno);
-	return;
-}
 int main()
 {
 	struct fraction x,y;
