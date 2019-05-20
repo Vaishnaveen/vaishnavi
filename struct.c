@@ -8,7 +8,7 @@ int main()
 {
 	struct fraction x,y;
 	printf("Read the fraction in X/Y:\n");
-	getinput(&x.nume,&y.deno);
+	scanf("%d%d",&x.nume,&y.deno);
 	printf("The fraction is %d/%d ",x.nume,y.deno);
 	return 0;
 }
