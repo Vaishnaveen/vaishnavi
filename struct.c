@@ -6,10 +6,10 @@ struct fraction
 };
 int main()
 {
-	struct fraction x,y;
+	struct fraction x;
 	printf("Read the fraction in X/Y:\n");
-	scanf("%d%d",&x.nume,&y.deno);
-	printf("The fraction is %d/%d ",x.nume,y.deno);
+	scanf("%d/%d",&x.nume,&x.deno);
+	printf("The fraction is %d/%d ",x.nume,x.deno);
 	return 0;
 }
 	
