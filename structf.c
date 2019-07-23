@@ -14,9 +14,9 @@ void getinput(struct fraction *x)
 }
 void compute(struct fraction a,struct fraction b, struct fraction *c)
 {
-    fraction f1={.nume,b.deno};
+    fraction f1={a.nume,a.deno};
     fraction f2={b.nume,b.deno};
-    sum=={f1
+    sum  
 int main()
 {
     struct fraction a,b,c;
